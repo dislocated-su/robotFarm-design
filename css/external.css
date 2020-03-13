@@ -12,6 +12,24 @@
     display: inline-block;
 }
 
+#productButton {
+    margin-right: 40px;
+}
+
+#productButton2 {
+    color:#fff;
+    border-color: #000;
+    display: block;
+    margin: 20px auto;
+}
+
+#productButton2:before,
+#productButton2:after,
+#productButton2 span:before,
+#productButton2 span:after {
+    background: #fff;
+}
+
 
 /**** BTN No. 1 ****/
 
@@ -20,9 +38,9 @@
     padding: 2vw 4vw;
     border: 2px solid #000;
     font-size: 3vw;
-    width: 30vw;
-    line-height: 3vw;
-    font-weight: 800;
+    width: 27vw;
+    line-height: 2vw;
+    font-weight: 100;
 }
 
 .btn-1:hover {
@@ -109,13 +127,14 @@
     width: 100%;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 900px) {
     .btn-1 {
         padding: 8px 12px;
         border: 2px solid #000;
-        font-size: 12pt;
-        width: 110pt;
-        line-height: 12pt;
+        font-size: 20pt;
+        width: 160pt;
+        line-height: 23pt;
+        font-weight: 100;
     }
     .btn-4 {
         width: 130px;
