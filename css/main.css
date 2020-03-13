@@ -103,6 +103,14 @@ button.action:hover {
 .hero-art img {
     width: 55vw;
     justify-self: inherit;
+    box-shadow:
+        0 2.2px 2.8px -8px rgba(0, 0, 0, 0.03),
+        0 5.4px 6.7px -8px rgba(0, 0, 0, 0.041),
+        0 10.1px 12.5px -8px rgba(0, 0, 0, 0.049),
+        0 18.1px 22.3px -8px rgba(0, 0, 0, 0.056),
+        0 33.8px 41.8px -8px rgba(0, 0, 0, 0.066),
+        0 81px 100px -8px rgba(0, 0, 0, 0.09);
+    border-radius: 5px;
 }
 
 .primaryFeature {
